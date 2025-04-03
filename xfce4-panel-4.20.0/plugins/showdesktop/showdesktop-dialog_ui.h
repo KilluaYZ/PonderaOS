@@ -1,0 +1,77 @@
+/* automatically generated from showdesktop-dialog.glade */
+#ifdef __SUNPRO_C
+#pragma align 4 (showdesktop_dialog_ui)
+#endif
+#ifdef __GNUC__
+static const char showdesktop_dialog_ui[] __attribute__ ((__aligned__ (4))) =
+#else
+static const char showdesktop_dialog_ui[] =
+#endif
+{
+  "<?xml version=\"1.0\" encoding=\"UTF-8\"?><interface><requires lib=\"gt"
+  "k+\" version=\"3.24\"/><requires lib=\"libxfce4ui-2\" version=\"4.17\"/"
+  "><object class=\"GtkImage\" id=\"image1\"><property name=\"visible\">Tr"
+  "ue</property><property name=\"can-focus\">False</property><property nam"
+  "e=\"icon-name\">help-browser</property></object><object class=\"GtkImag"
+  "e\" id=\"image2\"><property name=\"visible\">True</property><property n"
+  "ame=\"can-focus\">False</property><property name=\"icon-name\">window-c"
+  "lose-symbolic</property></object><object class=\"XfceTitledDialog\" id="
+  "\"dialog\"><property name=\"can-focus\">False</property><property name="
+  "\"title\" translatable=\"yes\">Show Desktop</property><property name=\""
+  "icon-name\">org.xfce.panel.showdesktop</property><property name=\"type-"
+  "hint\">normal</property><child internal-child=\"vbox\"><object class=\""
+  "GtkBox\" id=\"dialog-vbox2\"><property name=\"visible\">True</property>"
+  "<property name=\"can-focus\">False</property><property name=\"orientati"
+  "on\">vertical</property><property name=\"spacing\">2</property><child i"
+  "nternal-child=\"action_area\"><object class=\"GtkButtonBox\" id=\"dialo"
+  "g-action_area2\"><property name=\"visible\">True</property><property na"
+  "me=\"can-focus\">False</property><property name=\"layout-style\">end</p"
+  "roperty><child><object class=\"GtkButton\" id=\"close-button\"><propert"
+  "y name=\"label\" translatable=\"yes\">_Close</property><property name=\""
+  "visible\">True</property><property name=\"can-focus\">True</property><p"
+  "roperty name=\"receives-default\">True</property><property name=\"image"
+  "\">image2</property><property name=\"use-underline\">True</property></o"
+  "bject><packing><property name=\"expand\">False</property><property name"
+  "=\"fill\">False</property><property name=\"position\">0</property></pac"
+  "king></child><child><object class=\"GtkButton\" id=\"help-button\"><pro"
+  "perty name=\"label\" translatable=\"yes\">_Help</property><property nam"
+  "e=\"visible\">True</property><property name=\"can-focus\">True</propert"
+  "y><property name=\"receives-default\">True</property><property name=\"i"
+  "mage\">image1</property><property name=\"use-underline\">True</property"
+  "></object><packing><property name=\"expand\">False</property><property "
+  "name=\"fill\">False</property><property name=\"position\">1</property><"
+  "property name=\"secondary\">True</property></packing></child></object><"
+  "packing><property name=\"expand\">False</property><property name=\"fill"
+  "\">False</property><property name=\"pack-type\">end</property><property"
+  " name=\"position\">0</property></packing></child><child><object class=\""
+  "GtkFrame\" id=\"frame1\"><property name=\"visible\">True</property><pro"
+  "perty name=\"can-focus\">False</property><property name=\"border-width\""
+  ">6</property><property name=\"label-xalign\">0</property><property name"
+  "=\"shadow-type\">none</property><child><object class=\"GtkAlignment\" i"
+  "d=\"alignment1\"><property name=\"visible\">True</property><property na"
+  "me=\"can-focus\">False</property><property name=\"left-padding\">12</pr"
+  "operty><child><object class=\"GtkBox\" id=\"vbox3\"><property name=\"vi"
+  "sible\">True</property><property name=\"can-focus\">False</property><pr"
+  "operty name=\"border-width\">6</property><property name=\"orientation\""
+  ">vertical</property><property name=\"spacing\">6</property><child><obje"
+  "ct class=\"GtkCheckButton\" id=\"show-on-hover\"><property name=\"label"
+  "\" translatable=\"yes\">_Show on mouse hover</property><property name=\""
+  "visible\">True</property><property name=\"can-focus\">True</property><p"
+  "roperty name=\"receives-default\">False</property><property name=\"use-"
+  "underline\">True</property><property name=\"draw-indicator\">True</prop"
+  "erty></object><packing><property name=\"expand\">False</property><prope"
+  "rty name=\"fill\">True</property><property name=\"position\">0</propert"
+  "y></packing></child></object></child></object></child><child type=\"lab"
+  "el\"><object class=\"GtkLabel\" id=\"label1\"><property name=\"visible\""
+  ">True</property><property name=\"can-focus\">False</property><property "
+  "name=\"label\" translatable=\"yes\">Behavior</property><attributes><att"
+  "ribute name=\"weight\" value=\"bold\"/></attributes></object></child></"
+  "object><packing><property name=\"expand\">False</property><property nam"
+  "e=\"fill\">True</property><property name=\"position\">1</property></pac"
+  "king></child></object></child><action-widgets><action-widget response=\""
+  "0\">close-button</action-widget><action-widget response=\"0\">help-butt"
+  "on</action-widget></action-widgets></object></interface>"
+};
+
+static const unsigned showdesktop_dialog_ui_length = 4244u;
+

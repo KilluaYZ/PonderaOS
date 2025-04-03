@@ -1,0 +1,438 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the xfce4-appfinder package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: xfce4-appfinder 4.19.2git-8345ff7\n"
+"Report-Msgid-Bugs-To: https://gitlab.xfce.org/xfce/xfce4-appfinder/\n"
+"POT-Creation-Date: 2024-06-19 19:27+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. close all windows and quit
+#: src/appfinder-gdbus.c:99
+msgid "Forced to quit"
+msgstr ""
+
+#: src/appfinder-category-model.c:157
+msgid "All Applications"
+msgstr ""
+
+#: src/appfinder-model.c:698
+msgid "Name"
+msgstr ""
+
+#: src/appfinder-model.c:699
+msgid "Comment"
+msgstr ""
+
+#: src/appfinder-model.c:700
+msgid "Command"
+msgstr ""
+
+#: src/appfinder-model.c:701
+msgid "Categories"
+msgstr ""
+
+#: src/appfinder-model.c:702
+msgid "Filename"
+msgstr ""
+
+#: src/appfinder-model.c:2562
+msgid "Application has no command"
+msgstr ""
+
+#: src/appfinder-model.c:3039
+msgid "Commands History"
+msgstr ""
+
+#: src/appfinder-model.c:3063
+msgid "Bookmarks"
+msgstr ""
+
+#: src/appfinder-preferences.c:290
+msgid "C_lear"
+msgstr ""
+
+#: src/appfinder-preferences.c:291
+msgid "This will permanently clear the custom command history."
+msgstr ""
+
+#: src/appfinder-preferences.c:292
+msgid "Are you sure you want to clear the command history?"
+msgstr ""
+
+#: src/appfinder-preferences.c:403
+msgid "_Delete"
+msgstr ""
+
+#: src/appfinder-preferences.c:404
+msgid "The custom action will be deleted permanently."
+msgstr ""
+
+#: src/appfinder-preferences.c:405
+#, c-format
+msgid "Are you sure you want to delete pattern \"%s\"?"
+msgstr ""
+
+#: src/appfinder-window.c:248 src/appfinder-preferences.glade:74
+#: data/xfce4-appfinder.desktop.in:10
+#: data/org.xfce.xfce4-appfinder.appdata.xml.in:8
+msgid "Application Finder"
+msgstr ""
+
+#: src/appfinder-window.c:301
+msgid "Toggle view mode"
+msgstr ""
+
+#: src/appfinder-window.c:382
+msgid "_Preferences"
+msgstr ""
+
+#: src/appfinder-window.c:393 src/appfinder-window.c:1219
+msgid "La_unch"
+msgstr ""
+
+#: src/appfinder-window.c:1020
+msgid "Failed to launch desktop item editor"
+msgstr ""
+
+#: src/appfinder-window.c:1045
+msgid "Confirm"
+msgstr ""
+
+#: src/appfinder-window.c:1046
+msgid ""
+"This will permanently remove the custom desktop file from your home "
+"directory."
+msgstr ""
+
+#: src/appfinder-window.c:1047
+#, c-format
+msgid "Are you sure you want to revert \"%s\"?"
+msgstr ""
+
+#: src/appfinder-window.c:1057
+msgid "Failed to remove desktop file"
+msgstr ""
+
+#. I18N: the first %s will be replace with users' applications directory, the
+#. * second with Hidden=true
+#: src/appfinder-window.c:1090
+#, c-format
+msgid ""
+"To unhide the item you have to manually remove the desktop file from \"%s\" "
+"or open the file in the same directory and remove the line \"%s\"."
+msgstr ""
+
+#: src/appfinder-window.c:1095 src/appfinder-window.c:1265
+msgid "_Hide"
+msgstr ""
+
+#: src/appfinder-window.c:1096
+#, c-format
+msgid "Are you sure you want to hide \"%s\"?"
+msgstr ""
+
+#: src/appfinder-window.c:1201
+msgid "Remove From Bookmarks"
+msgstr ""
+
+#: src/appfinder-window.c:1201
+msgid "Add to Bookmarks"
+msgstr ""
+
+#: src/appfinder-window.c:1233
+msgid "_Edit"
+msgstr ""
+
+#: src/appfinder-window.c:1250
+msgid "_Revert"
+msgstr ""
+
+#: src/main.c:66
+msgid "Start in collapsed mode"
+msgstr ""
+
+#: src/main.c:67
+msgid "Print version information and exit"
+msgstr ""
+
+#: src/main.c:68
+msgid "Replace the existing service"
+msgstr ""
+
+#: src/main.c:69
+msgid "Quit all instances"
+msgstr ""
+
+#: src/main.c:70
+msgid "Do not try to use or become a D-Bus service"
+msgstr ""
+
+#: src/main.c:71
+msgid "Toggle window visibility of background service"
+msgstr ""
+
+#: src/main.c:72
+msgid "Run in daemon mode"
+msgstr ""
+
+#: src/main.c:249
+#, c-format
+msgid "Type \"%s --help\" for usage."
+msgstr ""
+
+#: src/main.c:260
+msgid "The Xfce development team. All rights reserved."
+msgstr ""
+
+#: src/main.c:261
+#, c-format
+msgid "Please report bugs to <%s>."
+msgstr ""
+
+#: src/appfinder-preferences.glade:13
+msgid "Prefix"
+msgstr ""
+
+#: src/appfinder-preferences.glade:16
+msgid "Regular Expression"
+msgstr ""
+
+#: src/appfinder-preferences.glade:35
+msgid "Very Small"
+msgstr ""
+
+#: src/appfinder-preferences.glade:38
+msgid "Smaller"
+msgstr ""
+
+#: src/appfinder-preferences.glade:41
+msgid "Small"
+msgstr ""
+
+#: src/appfinder-preferences.glade:44
+msgid "Normal"
+msgstr ""
+
+#: src/appfinder-preferences.glade:47
+msgid "Large"
+msgstr ""
+
+#: src/appfinder-preferences.glade:50
+msgid "Larger"
+msgstr ""
+
+#: src/appfinder-preferences.glade:53
+msgid "Very Large"
+msgstr ""
+
+#: src/appfinder-preferences.glade:91
+msgid "_Close"
+msgstr ""
+
+#: src/appfinder-preferences.glade:107
+msgid "_Help"
+msgstr ""
+
+#: src/appfinder-preferences.glade:160
+msgid "Remember last _selected category"
+msgstr ""
+
+#: src/appfinder-preferences.glade:176
+msgid "Always c_enter the window"
+msgstr ""
+
+#: src/appfinder-preferences.glade:181
+msgid "Center the window on startup."
+msgstr ""
+
+#: src/appfinder-preferences.glade:194
+msgid "Close window when _focus is lost"
+msgstr ""
+
+#: src/appfinder-preferences.glade:199
+msgid "When the focus is lost to another window, appfinder should be closed."
+msgstr ""
+
+#: src/appfinder-preferences.glade:212
+msgid "Keep running _instance in the background"
+msgstr ""
+
+#: src/appfinder-preferences.glade:217
+msgid ""
+"Instead of quitting the application when the last window is closed, keep a "
+"running instance to speed up opening new windows. You might want to disable "
+"this to reduce memory usage."
+msgstr ""
+
+#: src/appfinder-preferences.glade:230
+msgid "Single window"
+msgstr ""
+
+#: src/appfinder-preferences.glade:235
+msgid ""
+"When an instance is running in the background, only open one window at a "
+"time."
+msgstr ""
+
+#: src/appfinder-preferences.glade:248
+msgid "Sort recently used items first"
+msgstr ""
+
+#: src/appfinder-preferences.glade:253
+msgid ""
+"Order items, such that items that are most recently used are always on the "
+"top."
+msgstr ""
+
+#: src/appfinder-preferences.glade:265
+msgid "Single-click selects and launches items"
+msgstr ""
+
+#: src/appfinder-preferences.glade:270
+msgid "Items are selected and launched with only a single-click."
+msgstr ""
+
+#: src/appfinder-preferences.glade:288
+msgid "Behaviour"
+msgstr ""
+
+#: src/appfinder-preferences.glade:323
+msgid "_View items as icons"
+msgstr ""
+
+#: src/appfinder-preferences.glade:338
+msgid "Text besi_de icons"
+msgstr ""
+
+#: src/appfinder-preferences.glade:356
+msgid "Ite_m icon size:"
+msgstr ""
+
+#: src/appfinder-preferences.glade:370
+msgid "Hide category pane"
+msgstr ""
+
+#: src/appfinder-preferences.glade:375
+msgid "Hide category panel and show all applications."
+msgstr ""
+
+#: src/appfinder-preferences.glade:392
+msgid "Categ_ory icon size:"
+msgstr ""
+
+#: src/appfinder-preferences.glade:446
+msgid "Hide window decorations"
+msgstr ""
+
+#: src/appfinder-preferences.glade:451
+msgid "Hide window decorations such as title bar and borders."
+msgstr ""
+
+#: src/appfinder-preferences.glade:466
+msgid "Show generic application _names"
+msgstr ""
+
+#: src/appfinder-preferences.glade:490
+msgid "Appearance"
+msgstr ""
+
+#: src/appfinder-preferences.glade:521
+msgid "C_lear Custom Command History"
+msgstr ""
+
+#: src/appfinder-preferences.glade:536
+msgid "History"
+msgstr ""
+
+#: src/appfinder-preferences.glade:555
+msgid "_General"
+msgstr ""
+
+#: src/appfinder-preferences.glade:579
+msgid "Custom actions are only available in collapsed mode."
+msgstr ""
+
+#: src/appfinder-preferences.glade:627
+msgid "Pattern"
+msgstr ""
+
+#: src/appfinder-preferences.glade:663
+msgid "Add a new custom action."
+msgstr ""
+
+#: src/appfinder-preferences.glade:684
+msgid "Remove the currently selected action."
+msgstr ""
+
+#: src/appfinder-preferences.glade:727
+msgid ""
+"If the type is set to prefix, %s will be replaced with the string after the "
+"pattern, %S with the complete entry text. For regular expressions you can "
+"use \\0 and \\<num>."
+msgstr ""
+
+#: src/appfinder-preferences.glade:758
+msgid "Co_mmand:"
+msgstr ""
+
+#: src/appfinder-preferences.glade:773
+msgid "Patte_rn:"
+msgstr ""
+
+#: src/appfinder-preferences.glade:788
+msgid "_Type:"
+msgstr ""
+
+#: src/appfinder-preferences.glade:798
+msgid "_Save match in command history"
+msgstr ""
+
+#: src/appfinder-preferences.glade:850
+msgid "Custom _Actions"
+msgstr ""
+
+#: data/xfce4-appfinder.desktop.in:11
+msgid "Find and launch applications installed on your system"
+msgstr ""
+
+#: data/xfce4-appfinder.desktop.in:12
+msgid "program;applications;bookmarks;"
+msgstr ""
+
+#: data/xfce4-run.desktop.in:11
+msgid "Run Program..."
+msgstr ""
+
+#: data/xfce4-run.desktop.in:12
+msgid "Enter a command you want to launch"
+msgstr ""
+
+#: data/xfce4-run.desktop.in:13
+msgid ""
+"run;command;application;program;finder;search;launcher;everything;spotlight;"
+"sherlock;applesearch;unity dash;krunner;synapse;ulauncher;launchy;gnome do;"
+"pie;apwal;recoll;alfred;quicksilver;tracker;beagle;kupfer;"
+msgstr ""
+
+#: data/org.xfce.xfce4-appfinder.appdata.xml.in:9
+msgid "Application to quickly run applications and commands"
+msgstr ""
+
+#: data/org.xfce.xfce4-appfinder.appdata.xml.in:13
+msgid ""
+"The application finder is a tool to find and launch installed applications "
+"on your system and quickly execute commands. It can also be used to quickly "
+"add launchers to the Xfce Panel by dragging an item from the view and drop "
+"it on the panel."
+msgstr ""
